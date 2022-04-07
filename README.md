@@ -1,8 +1,8 @@
-# solv-v2-ivo
+# EQUITYY-V1.0
 
 Solv Protocol is the decentralized platform for creating, managing and trading Financial NFTs.
 
-This repository contains the core smart contracts for IVO (Initial Voucher Offering) on SOLV offering marketpalce.
+This repository contains the core smart contracts for IVO (Initial Voucher Offering) on EQUITYY offering marketpalce.
 
 ## Structure
 
@@ -14,7 +14,7 @@ This repository contains the core smart contracts for IVO (Initial Voucher Offer
 
 - [`upgrade-proxy`](./commons/upgrade-proxy): Smart contracts for the upgrade proxy pattern, introduced from Openzeppelin.
 
-- [`solver`](./commons/sovler): The global manager of SOLV products, controlling and verifying user permissions to operate on SOLV vouchers as well as SOLV markets.
+- [`solver`](./commons/sovler): The global manager of EQUITYY products, controlling and verifying user permissions to operate on EQUITYY vouchers as well as EQUITYY markets.
 
 ### vouchers
 
@@ -29,7 +29,7 @@ This repository contains the core smart contracts for IVO (Initial Voucher Offer
 
 ### markets
 
-[`markets`](./markets) contains smart contracts for the SOLV offering markets.
+[`markets`](./markets) contains smart contracts for the EQUITYY offering markets.
 
 - [`offering-market-core`](./markets/offering-market-core): Core implementation of an offering market, which can be used as a template to create offering markets for different vouchers.
 
